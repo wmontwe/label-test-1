@@ -1,0 +1,90 @@
+# GitHub Labels Configuration
+# These labels are synced to the repository via the Label Sync workflow.
+
+# Priority labels
+- name: "priority: critical"
+  color: "b60205"
+  description: "Critical priority issue that needs immediate attention"
+
+- name: "priority: high"
+  color: "d93f0b"
+  description: "High priority issue"
+
+- name: "priority: medium"
+  color: "e4e669"
+  description: "Medium priority issue"
+
+- name: "priority: low"
+  color: "0e8a16"
+  description: "Low priority issue"
+
+# Type labels
+- name: "type: bug"
+  color: "d73a4a"
+  description: "Something isn't working"
+
+- name: "type: feature"
+  color: "a2eeef"
+  description: "New feature or request"
+
+- name: "type: enhancement"
+  color: "84b6eb"
+  description: "Improvement to an existing feature"
+
+- name: "type: documentation"
+  color: "0075ca"
+  description: "Improvements or additions to documentation"
+
+- name: "type: chore"
+  color: "e4e669"
+  description: "Maintenance tasks, refactoring, or build changes"
+
+- name: "type: question"
+  color: "d876e3"
+  description: "Further information is requested"
+
+# Status labels
+- name: "status: needs triage"
+  color: "ededed"
+  description: "Needs initial triage and classification"
+
+- name: "status: in progress"
+  color: "0052cc"
+  description: "Work is currently in progress"
+
+- name: "status: blocked"
+  color: "b60205"
+  description: "Blocked by another issue or dependency"
+
+- name: "status: ready for review"
+  color: "0e8a16"
+  description: "Ready for code review"
+
+- name: "status: wont fix"
+  color: "ffffff"
+  description: "This will not be worked on"
+
+- name: "status: duplicate"
+  color: "cfd3d7"
+  description: "This issue or pull request already exists"
+
+# Size labels
+- name: "size: XS"
+  color: "3cbf00"
+  description: "Extra small change (1-5 lines)"
+
+- name: "size: S"
+  color: "5d9801"
+  description: "Small change (6-20 lines)"
+
+- name: "size: M"
+  color: "7f7203"
+  description: "Medium change (21-50 lines)"
+
+- name: "size: L"
+  color: "a14c05"
+  description: "Large change (51-100 lines)"
+
+- name: "size: XL"
+  color: "c32607"
+  description: "Extra large change (100+ lines)"
